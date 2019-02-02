@@ -63,7 +63,7 @@ public class LeavesLoading extends View {
     @ColorInt
     private int mBgColor = Color.WHITE;
     @ColorInt
-    private int mProgressColor = getResources().getColor(R.color.orange);
+    private int mProgressColor = getResources().getColor(R.color.leaves_loading_orange);
     @ColorInt
     private int mFanStrokeColor = Color.WHITE;//扇子描边颜色
     private long mLeafFloatTime = DEFAULT_LEAF_FLOAT_TIME;
@@ -133,10 +133,10 @@ public class LeavesLoading extends View {
             }
             mBgColor = ta.getColor(
                     R.styleable.LeavesLoading_bgColor,
-                    getResources().getColor(R.color.white));
+                    getResources().getColor(R.color.leaves_loading_white));
             mProgressColor = ta.getColor(
                     R.styleable.LeavesLoading_progressColor,
-                    getResources().getColor(R.color.orange));
+                    getResources().getColor(R.color.leaves_loading_orange));
             mFanStrokeColor = ta.getColor(
                     R.styleable.LeavesLoading_fanStrokeColor,
                     Color.WHITE);

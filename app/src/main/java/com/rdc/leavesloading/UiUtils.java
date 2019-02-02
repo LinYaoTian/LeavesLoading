@@ -2,7 +2,7 @@ package com.rdc.leavesloading;
 
 import android.content.Context;
 
-public class UiUtils {
+class UiUtils {
     /**
      * 根据手机的分辨率从 dp 的单位 转成为 px(像素)
      *
@@ -10,7 +10,7 @@ public class UiUtils {
      * @param dpValue dp
      * @return px
      */
-    public static int dip2px(Context context, float dpValue) {
+    static int dip2px(Context context, float dpValue) {
         return (int) (dpValue * getDensity(context) + 0.5f);
     }
 
@@ -19,7 +19,7 @@ public class UiUtils {
      *
      * 将px转换为sp
      */
-    public static int px2sp(Context context, float pxValue) {
+    static int px2sp(Context context, float pxValue) {
         final float fontScale = context.getResources().getDisplayMetrics().scaledDensity;
         return (int) (pxValue / fontScale + 0.5f);
     }
@@ -30,7 +30,7 @@ public class UiUtils {
      *
      * 将sp转换为px
      */
-    public static int sp2px(Context context, float spValue) {
+    static int sp2px(Context context, float spValue) {
         final float fontScale = context.getResources().getDisplayMetrics().scaledDensity;
         return (int) (spValue * fontScale + 0.5f);
     }
@@ -42,7 +42,7 @@ public class UiUtils {
      * @param pxValue px
      * @return dp
      */
-    public static int px2dip(Context context, float pxValue) {
+    static int px2dip(Context context, float pxValue) {
         return (int) (pxValue / getDensity(context) + 0.5f);
     }
 
@@ -52,7 +52,7 @@ public class UiUtils {
      * @param context 上下文
      * @return 像素密度
      */
-    public static float getDensity(Context context) {
+    static float getDensity(Context context) {
         return context.getResources().getDisplayMetrics().density;
     }
 }
