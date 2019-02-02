@@ -166,13 +166,13 @@ public class LeavesLoading extends View {
         mFanStrokePaint.setColor(mFanStrokeColor);
 
         if (mLeafBitmap == null){
-            mLeafBitmap = BitmapFactory.decodeResource(mContext.getResources(),R.drawable.iv_leaf_3);
+            mLeafBitmap = BitmapFactory.decodeResource(mContext.getResources(),R.drawable.leaves_loading_leaf_3);
         }
         mLeafBitmapHeight = mLeafBitmap.getHeight();
         mLeafBitmapWidth = mLeafBitmap.getWidth();
 
         if (mFanBitmap == null){
-            mFanBitmap = BitmapFactory.decodeResource(mContext.getResources(),R.drawable.iv_fan_3);
+            mFanBitmap = BitmapFactory.decodeResource(mContext.getResources(),R.drawable.leaves_loading_fan_3);
         }
         mFanBitmapWidth = mFanBitmap.getWidth();
         mFanBitmapHeight = mFanBitmap.getHeight();
