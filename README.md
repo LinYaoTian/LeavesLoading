@@ -31,7 +31,7 @@
   ```
   在 app 的 build.gradle 中：
   ```groovy
-   implementation 'com.github.LinYaoTian:LeavesLoading:1.0.0'
+   implementation 'com.github.LinYaoTian:LeavesLoading:1.0.1'
   ```
 
 ## 3. 如何使用
