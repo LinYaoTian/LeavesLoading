@@ -1,4 +1,4 @@
-# LeavesLoading
+# LeavesLoading [![](https://www.jitpack.io/v/LinYaoTian/LeavesLoading.svg)](https://www.jitpack.io/#LinYaoTian/LeavesLoading)
 
 ## 1. 创意原型
 
