@@ -8,7 +8,7 @@
 
 **效果图：** 
 
-![](https://github.com/LinYaoTian/TestLeavesLoading/blob/master/test1.gif?raw=true)
+![](https://github.com/LinYaoTian/TestLeavesLoading/blob/master/test1%20(1).gif)
 
 基本实现了原图的效果
 
